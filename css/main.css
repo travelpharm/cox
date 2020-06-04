@@ -1,0 +1,202 @@
+/* global css*/
+
+h2   {
+      color:#01643e;
+      margin: 2em;
+      text-align: center;
+      }
+
+h3   {
+      color: #01643e;
+      text-align: center;
+      }
+
+p     {
+      line-height:2;
+      color:#888;
+      }
+
+
+
+/*navbar css */
+
+.navbar{ color: #01643e; background: white;}
+
+.nav-link , .navbar-brand{ color: #01643e; cursor: pointer; }
+
+.nav-link{color: #01643e; margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #012764; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{ color: #01643e; background:#fff !important;}
+
+
+/*header style*/
+
+.header{
+ background-image: url("../images/test1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+/* description css */
+
+.description{
+      position: absolute;
+      top: 30%;
+      margin: auto;
+      padding: 2em;
+      
+  }
+  .description h1{
+   color: #01643e ;     
+  }
+  .description p{
+   color:#666;
+   font-size: 20px;
+   width: 100%;
+   line-height: 1.5;
+  }
+  .description button{
+   border:1px  solid #01643e;
+   background:#01643e;
+   color:#fff;
+  }
+
+
+
+/* about css*/
+
+.about{
+      margin: 4em 0;
+      padding: 1em;
+      position: relative;
+     }
+
+
+     .about img{
+      height: 100%;
+         width: 100%;
+         border-radius: 50%
+     }
+     .about span{
+      display: block;
+      color: #888;
+      position: absolute;
+      left: 115px;
+     }
+     .about .desc{
+      padding: 2em;
+      border-left:4px solid #01643e;
+     }
+
+/*services css*/
+
+.services{
+      margin: 4em 0;
+      padding: 1em;
+      position: relative;
+     }
+     
+     .services img.center{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding:15px;
+     }
+     .services span{
+      display: block;
+      color: #888;
+      position: absolute;
+      left: 115px;
+     }
+     .services .desc{
+      padding: 2em;
+      border-left:4px solid #01643e;
+     }
+
+     .services p{
+      line-height:2;
+      color:#black;
+      text-align: center;
+      padding-left:1em;
+      padding-right:1em;
+     }
+
+/* Pharmacy Branches CSS */
+
+     .pharmacies{
+      margin: 4em 0;
+      padding: 1em;
+      position: relative;
+     }
+ 
+     .pharmacies img{
+      height: 100%;
+         width: 100%;
+         border-radius: 50%
+     }
+     .pharmacies span{
+      display: block;
+      color: #888;
+      position: absolute;
+      left: 115px;
+     }
+     .pharmacies .desc{
+      padding: 2em;
+      border-left:4px solid #01643e;
+     }
+
+     .map-container{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      }
+      .map-container iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+      }
+
+/* Contact Us CSS */
+  
+
+     .contactus{
+      margin: 4em 0;
+      padding: 1em;
+      position: relative;
+     }
+ 
+     .contactus img{
+      height: 100%;
+         width: 100%;
+         border-radius: 50%
+     }
+     .contactus span{
+      display: block;
+      color: #888;
+      position: absolute;
+      left: 115px;
+     }
+     .contactus .desc{
+      padding: 2em;
+      border-left:4px solid #01643e;
+     }
+
+
+
