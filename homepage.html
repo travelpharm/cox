@@ -15,6 +15,18 @@
 
   <!-- Bootstrap CSS -->
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
 
 
 
@@ -47,15 +59,6 @@
     </div>
   </nav>
 
-
-
-
-
-
-</head>
-
-<body>
-
   <header class="header" id="top">
     <div class="overlay">
       <div class="container">
@@ -76,52 +79,64 @@
 
 
 
-  <div class="about overlay" id="about">
-
-    <h2 style="text-align: center">About Us</h2>
-    <p class="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum."
-    </p>
-  </div>
-  </div>
-
-  <div class="pharmacies" id="pharmacy">
-    <h2>Our Pharmacies</h2>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="card" align="center">
-          <div class="card-body">
-            <h5 class="card-title">Olney</h5>
 
 
-            <div class="col-sm border rounded" style="padding: 20pt">
-              <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.9536638607215!2d-0.7037389842061709!3d52.15335237974642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877a8e7676f12a5%3A0x8f5bd6f2387b1ebc!2sCox%20%26%20Robinson!5e0!3m2!1sen!2suk!4v1566937929462!5m2!1sen!2suk"
-                  width="600" height="450" frameborder="0" style="border:0;"></iframe>
+
+</head>
+
+<body>
+  <div class="hidden" id="#hidden">
+    <div class="container">
+      <div class="about" id="about">
+
+        <h2 style="text-align: center">About Us</h2>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col buffer">
+
+              <p>
+                Here at <strong>Cox & Robinson Pharmacy</strong> we are an independent family run business with over 250
+                years of trading history. <br>
+
+                Cox & Robinson operate two pharmacies located in Olney and Stony Stratford. We pride ourselves on our
+                friendly, patient centred approach to serving our local communities and we strive to provide our local
+                people with the best health services possible. <br>
+                Cox & Robinson were acquired from the WR Evans group in 2006 and are now part of the PCT Healthcare
+                Limited
+                group of pharmacies who primarily trade as Peak Pharmacy. <br>
+                Want to find out more about PCT Healthcare Limited? Check out the <a
+                  href="https://www.peakpharmacy.co.uk" alt="Peak Pharmacy">Peak Pharmacy</a> website.
+
+              </p>
+            </div>
+
+            <div class="col buffer">
+              <img src="images/test3.jpg" width="500em">
+            </div>
+
+
+
+            <div class="w-100"> </div>
+
+              <div class="col buffer">
+                <img src="images/test3.jpg" width=500rem>
               </div>
-              <br>
-              <div class="row">
-                <div class="col">
 
-                  <p align="left"><strong>Opening Hours:</strong><br>
-                    Monday - Friday: 9am - 6pm<br>
-                    Saturday: 9am - 3pm<br>
-                    Sunday: Closed<br>
-                  </p>
-                </div>
+              <div class="col">
+                <p>
+                  <strong>Did you know we had an online pharmacy? </strong> <br>
+                  Need prescription or over the counter medicines, check out TravelPharm.<br>TravelPharm are an online
+                  pharmacy who specialise in travel medicine so expect to find malaria treatments and travel
+                  accessories as
+                  well as all your favourite over the counter medicine brands. <br><br>
 
-                <div class="col">
-                  <p align="left">Cox Robinson Pharmacy<br>
-                    14 Market Place<br>
-                    Olney<br>
-                    Buckinghamshire<br>
-                    MK46 4BA<br>
-                    Tel: 01234 711203</p>
-                </div>
+                  <a href="https://www.travelpharm.com">
+                    <button type="button" class="btn btn-primary btn-lg">Shop TravelPharm</button></a>
+
+                </p>
+
               </div>
 
 
@@ -129,42 +144,102 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="hidden" id="#hidden">
+      <div class="pharmacies" id="pharmacy">
+        <h2>Our Pharmacies</h2>
 
 
+        <div class="container">
 
 
+          <div class="row">
+            <div class="col">
+              <div class="card h-100" align="center">
+                <div class="card-body">
+                  <h3 class="card-title">Olney</h3>
 
-      <div class="col-sm-6">
-        <div class="card" align="center">
-          <div class="card-body">
-            <h5 class="card-title">Stony Stratford</h5>
-            <div class="col-sm border rounded" style="padding: 20pt">
-              <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.282412138578!2d-0.8560097848363052!3d52.05638117972908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877019c88d734dd%3A0x45d2a49baf2f28eb!2sCox%20%26%20Robinson%20Ltd!5e0!3m2!1sen!2suk!4v1566938054976!5m2!1sen!2suk"
-                  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-              </div>
-              <br>
-              <div class="row">
-                <div class="col">
 
-                  <p align="left"><strong>Opening Hours:</strong><br>
-                    Monday - Friday: 8:45am - 6:30pm<br>
-                    Saturday: 9am - 1pm<br>
-                    Sunday: Closed<br>
-                  </p>
+                  <div class="col-sm border rounded" style="padding: 20pt">
+                    <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.9536638607215!2d-0.7037389842061709!3d52.15335237974642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877a8e7676f12a5%3A0x8f5bd6f2387b1ebc!2sCox%20%26%20Robinson!5e0!3m2!1sen!2suk!4v1566937929462!5m2!1sen!2suk"
+                        width="600" height="450" frameborder="0" style="border:0;"></iframe>
+                    </div>
+                    <br>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+
+                          <p align="left"><strong>Opening Hours:</strong><br>
+                            Monday - Friday: 9am - 6pm<br>
+                            Saturday: 9am - 3pm<br>
+                            Sunday: Closed<br>
+                          </p>
+                        </div>
+
+                        <div class="col">
+                          <p align="left">Cox Robinson Pharmacy<br>
+                            14 Market Place<br>
+                            Olney<br>
+                            Buckinghamshire<br>
+                            MK46 4BA<br>
+                            Tel: 01234 711203</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
+              </div>
+            </div>
 
-                <div class="col">
-                  <p align="left">Cox Robinson Pharmacy<br>
-                    1 Market Square<br>
-                    Stony Stratford <br>
-                    Buckinghamshire<br>
-                    MK46 4BA<br>
-                    Tel: 01234 711203</p>
+
+
+
+
+            <div class="col">
+              <div class="card h-100" align="center">
+                <div class="card-body">
+                  <h3 class="card-title">Stony Stratford</h3>
+                  <div class="col-sm border rounded" style="padding: 20pt">
+                    <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.282412138578!2d-0.8560097848363052!3d52.05638117972908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877019c88d734dd%3A0x45d2a49baf2f28eb!2sCox%20%26%20Robinson%20Ltd!5e0!3m2!1sen!2suk!4v1566938054976!5m2!1sen!2suk"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <br>
+
+
+                    <div class="container">
+                      <div class="row">
+
+
+
+                        <div class="col">
+                          <p align="left"><strong>Opening Hours:</strong><br>
+                            Monday - Friday: 8:45am - 6:30pm<br>
+                            Saturday: 9am - 1pm<br>
+                            Sunday: Closed<br>
+                          </p>
+
+                        </div>
+
+
+                        <div class="col">
+                          <p align="left">Cox Robinson Pharmacy<br>
+                            1 Market Square<br>
+                            Stony Stratford <br>
+                            Buckinghamshire<br>
+                            MK46 4BA<br>
+                            Tel: 01234 711203</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -172,113 +247,114 @@
     </div>
   </div>
 
-  
 
+  <div class="hidden" id="#hidden">
+    <div class="services" id="services">
+      <h2>Pharmacy Services</h2>
 
-  <div class="services" id="services">
-    <h2>Services</h2>
-    <img src="./images/pills.svg" class="center">
-    <h3>NHS Prescriptions</h3>
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </p>
-
-    <img src="./images/pills.svg" class="center">
-    <h3>NHS Prescriptions</h3>
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </p>
-
-    <img src="./images/pills.svg" class="center">
-    <h3>NHS Prescriptions</h3>
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </p>
-
-
-
-
-  </div>
-
-  <div class="contactus" id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
       <div class="row">
-        <div class="col-sm">
-          <div id="contact-area">
-            <form name="contactform" method="post" action="send_form_email.php">
 
-              <div class="form-group">
-                <label for="first_name">First Name *</label>
-                <input type="text" name="first_name" maxlength="50" size="30" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for=" last_name">Last Name *</label>
-                <input type="text" name="last_name" maxlength="50" size="30" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="text" name="email" maxlength="80" size="30" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="telephone">Telephone Number</label>
-                <input type="text" name="telephone" maxlength="30" size="30" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="comments">Comments *</label>
-                <textarea name="comments" maxlength="1000" cols="25" rows="6" class="form-control"></textarea>
-              </div>
-              <div class="form-group">
-
-                <input type="submit" value="Submit" class="submit-button">
-
-              </div>
-            </form>
-          </div>
+        <div class="col">
+          <img src="./images/pills.svg" class="center">
+          <h3>NHS Prescriptions</h3>
+          <p>We dispense NHS prescriptions and offer free advice for all our customers.  Did you know that you can now get your prescription sent electronically to the pharmacy.  Speak to your pharmacist about the NHS Electronic Prescriptions.
+          </p>
         </div>
-
+        <div class="col">
+          <img src="./images/pills.svg" class="center">
+          <h3>Home Delivery</h3>
+          <p>In some circumstances, we can deliver medicines from our pharmacy direct to your door.  Our team of friendly delivery drivers operate daily near our pharmacies providing a invaluable local service.  
+          </p>
+        </div>
+        <div class="col">
+          <img src="./images/pills.svg" class="center">
+          <h3>New Medicine Service</h3>
+          <p>We offer tailored advice and a support programme for some new medicines.  If you are recently started on a new medicine by your GP please speak to our pharmacist, they will give you the help your require to get the most from your new treatment.    
+          </p>
+        </div>
       </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col">
+          <img src="./images/pills.svg" class="center">
+          <h3>Seasonal Flu Vaccination</h3>
+          <p>We provide flu vaccinations free of charge for those eligible on the NHS.  Not ina  risk group?  Don't worry because we provide flu vaccinations privately for a small charge.  Influenza, also known as flu circulates in the UK during our winter, typically November to February.  Get vaccinated against seasonal flu between September and November to get the most from your vaccine.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./images/pills.svg" class="center">
+          <h3>Medicine Use Reviews</h3>
+          <p>We offer comprehensive advice and support for all your medication needs.  Are you taking lots of medicines, or perhaps your having difficulties with your medicines?  Pop in to see your pharmacist as they can carry out a comprehensive review of the medicines you take and help you get the most from them.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./images/pills.svg" class="center">
+          <h3>Travel vaccinations</h3>
+          <p>Going abroad on holiday pop in to see our specialist team for comprehensive travel advice, travel vaccinations and anti-malarial drug treatment.  Our expert team will firstly assess your trip and then decide on the most appropriate vaccines for you.  Rest assured as our team will only provide services that will offer a benefit for you and your trip.
+          </p>
+        </div>
+        <div class=col>
+          <img src="./images/pills.svg" class="center">
+          <h3>Emergency Contraception</h3>
+          <p>Emergency contraception is available for purchase discretely in our stores.  Don't delay, as emergency contraception is more effcetive the sooner it is taken.
+          </p>
+        </div>
+      </div>
+
+
+
+
     </div>
   </div>
 
+  <div class="hidden" id="#hidden">
+    <div class="contactus" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
 
+        <p>Need to get in touch, please use the form below and one of the team will get in touch shortly.  <br>Contact us enquiries  are answered between 9am and 5pm Monday to Friday.</p>
 
+        
+        <div class="row">
+          <div class="col-sm">
+            <div id="contact-area">
+              <form name="contactform" method="post" action="send_form_email.php">
 
+                <div class="form-group">
+                  <label for="first_name">First Name *</label>
+                  <input type="text" name="first_name" maxlength="50" size="30" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for=" last_name">Last Name *</label>
+                  <input type="text" name="last_name" maxlength="50" size="30" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="text" name="email" maxlength="80" size="30" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="telephone">Telephone Number</label>
+                  <input type="text" name="telephone" maxlength="30" size="30" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="comments">Comments *</label>
+                  <textarea name="comments" maxlength="1000" cols="25" rows="6" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
 
+                  <input type="submit" value="Submit" class="submit-button">
 
+                </div>
+              </form>
+            </div>
+          </div>
 
+        </div>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-  <footer class="footer">
-    <div class="container">
-      <span class="text">
-        <p style="text-align: center">Cox and Robinson Pharmacy Ltd, part of the <a
-            href="http://www.pcthealthcare.co.uk">PCT Healthcare Group</a>
-          trading 1760
-          <script>new Date().getFullYear() > 1760 && document.write("- " + new Date().getFullYear());</script>
-        </p>
-        <p style="text-align: right;font-size: 50%">All Rights Reserved. Inhouse Production</p>
-      </span>
     </div>
-  </footer>
-
-</body>
 
 
 
@@ -286,20 +362,45 @@
 
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/main.js"></script>
-
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
 
 
 
-</body>
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text">
+          <p style="text-align: center">Cox and Robinson Pharmacy Ltd, part of the <a
+              href="http://www.pcthealthcare.co.uk">PCT Healthcare Group</a>
+            trading 1760
+            <script>new Date().getFullYear() > 1760 && document.write("- " + new Date().getFullYear());</script>
+          </p>
+          <p style="text-align: right;font-size: 50%">All Rights Reserved. Inhouse Production</p>
+        </span>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+
+
 
 </html>

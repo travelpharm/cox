@@ -16,6 +16,10 @@ p     {
       color:#888;
       }
 
+#hidden {
+	display: none;
+}
+
 
 
 /*navbar css */
@@ -36,7 +40,7 @@ p     {
 /*header style*/
 
 .header{
- background-image: url("../images/test1.jpg");
+ background-image: url("../images/test3.jpg");
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
@@ -81,26 +85,21 @@ p     {
 
 .about{
       margin: 4em 0;
-      padding: 1em;
+      padding: 2em;
       position: relative;
      }
 
-
-     .about img{
-      height: 100%;
-         width: 100%;
-         border-radius: 50%
-     }
      .about span{
       display: block;
       color: #888;
       position: absolute;
       left: 115px;
      }
-     .about .desc{
-      padding: 2em;
-      border-left:4px solid #01643e;
-     }
+
+.about .buffer{margin-bottom:100px;}
+
+
+
 
 /*services css*/
 
